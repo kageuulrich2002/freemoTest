@@ -28,6 +28,7 @@ export default function ListPost () {
       
         // Sauvegarder les données du post dans le localStorage
         localStorage.setItem(key, JSON.stringify(data));
+        alert('Id : '+data.id +' a été ajouté dans le localStorage')
       };
       
       
